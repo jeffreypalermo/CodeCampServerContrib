@@ -1,0 +1,5 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" MasterPageFile="~/Views/Shared/Main.master" %>
+<asp:Content runat="server" ContentPlaceHolderID="Main">
+	<asp:ContentPlaceHolder ID="TitleContent" runat="server" Visible=false/>
+	<asp:ContentPlaceHolder ID="MainContent" runat="server"/>        
+</asp:Content>

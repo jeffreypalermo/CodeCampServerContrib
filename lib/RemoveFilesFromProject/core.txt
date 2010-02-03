@@ -1,0 +1,8 @@
+remove,Domain
+remove,Domain\Model
+remove,Services\BusinessRule
+remove,Services\BusinessRule\UpdateUserGroup
+remove,Services\Impl\SecurityContext
+keep,Services\BusinessRule\Login
+keep,Services\BusinessRule\UpdateUser\U
+keep,Domain\Bases
